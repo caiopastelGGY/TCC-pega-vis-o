@@ -1,0 +1,9 @@
+.caixaflex
+{
+        width: 100px;
+        padding: 100px;
+        margin: auto;
+        border: 1px solid #ccc;
+        display: flex;
+
+        }

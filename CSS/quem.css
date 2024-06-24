@@ -1,0 +1,195 @@
+/* Reset básico */
+
+* {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a
+{
+    color: #ffde59;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover
+{
+opacity: 0.7;
+} 
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px ;
+
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+list-style-type: none;
+    font-family: "Oswald", sans-serif;
+    background: #000000 ;
+    height: 8vh;
+}
+
+main
+{
+    background-color: #000;
+    background-size: cover;
+    height: 70vh;
+}
+
+
+
+.nav-list 
+{
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    
+}
+
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+.mobile-menu div
+{
+    width: 32px;
+    height: 2px;
+    background: #f2f2f2;
+    margin: 8px;
+}
+
+
+.bannerPrincipal
+{
+    background-color: #000;
+}
+
+.DimensionarBanner
+{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
+
+.LogoBanner img
+{
+    width: 123px;
+}
+
+.texto
+{
+    color: #f2f2f2;
+    display: flex;
+    align-self: center;
+    padding: 5rem;
+    font-size: 23px;
+    text-align: justify;
+    font-family: "Oswald", sans-serif;
+}
+
+
+.sobre p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    min-height: 400PX;
+    background-color: #000000;
+}
+
+.containe1 div{
+    height: 370px;
+    width: 335px;
+    background: #802222;
+    margin: 60px;
+    border-radius: 5%;
+    background-image: url(pintagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card
+{
+    height: 400px;
+    width: 260px;
+    background-color: rgba(245, 221, 3, 0.808);
+    background-position: center;
+}
+
+
+footer{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .INSTAGRAM
+  {
+    
+    background-image: url("INSTAGRAM\ ICONE.png")
+  }
+
+  .logo4
+{
+  width: 100px ;
+  height: 50px;
+  margin: auto;
+  
+
+}
+
+footer
+{
+  margin: auto;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.titulo
+{
+    color: #fff;
+}
+.texto {
+    color: #fff;
+}
+
+.banner5
+{
+    padding-right: 1rem;
+}

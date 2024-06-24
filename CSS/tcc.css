@@ -1,0 +1,193 @@
+*{
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffde59;
+  
+}
+  
+  header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #ffde59;
+    text-decoration: none;
+  }
+
+  #container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400PX;
+    background-color: #050505b9;
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    flex-wrap: wrap;
+   
+}
+
+#container div{
+    height: 370px;
+    width: 335px;
+    margin: 60px;
+    border-radius: 5%;
+    
+}
+
+
+.pintura{
+  background-image: url(pintagem.jpg)!important;
+  background-size: cover!important;
+  background-position: center !important;
+  position: relative;
+  text-align: center;
+  background-color: transparent;
+  transition: all 1s;
+
+}
+.pintura:hover
+{
+  background-color: #0000007e;
+}
+.funilaria{
+  background-image: url(polisar.jpg)!important;
+  background-size: cover!important;
+  background-position: center !important;
+  position: relative;
+}
+
+.sondagem{
+  background-image: url(BLOG-Seguranca-de-soldagem-Por-que-e-importante-e-como-evitar-acidentes.jpg)!important;
+  background-size: cover!important;
+  background-position: center !important;
+  position: relative;
+}
+
+  .carousel-inner
+{
+
+    width: 100px;
+    height: 300px;
+
+}
+
+.PINTURA2
+{
+  color: #ffffff;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.FUNILARIA2
+{
+  color: #ffffff;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Sondagem2
+{
+  color: #ffffff;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: black 5px;
+}
+
+
+.saibaB
+{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffde59;
+  color: #000000;
+  -webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+padding: 10px;
+}
+
+footer{
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+.INSTAGRAM
+{
+  
+  background-image: url("INSTAGRAM\ ICONE.png")
+}
+
+.logo4
+{
+  width: 100px ;
+  height: 50px;
+  margin: auto;
+  
+
+}
+
+
+
+footer
+{
+  margin: auto;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+
+.sobrenos{
+  background-color: #0000007e;
+color: #ffffff;
+background: #0d0e07;
+text-align: center;
+padding: 10px;
+border: 10px;
+font-size: 20px;
+}
